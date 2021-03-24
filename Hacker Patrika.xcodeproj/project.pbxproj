@@ -15,6 +15,10 @@
 		C7F03694260B8FE300770065 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7F03692260B8FE300770065 /* LaunchScreen.storyboard */; };
 		C7F0369F260B8FE300770065 /* Hacker_PatrikaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F0369E260B8FE300770065 /* Hacker_PatrikaTests.swift */; };
 		C7F036AA260B8FE300770065 /* Hacker_PatrikaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F036A9260B8FE300770065 /* Hacker_PatrikaUITests.swift */; };
+		C7F036BC260BB8AD00770065 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F036BB260BB8AD00770065 /* NetworkManager.swift */; };
+		C7F036C4260BBAC800770065 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F036C3260BBAC800770065 /* PostData.swift */; };
+		C7F036CA260BC17000770065 /* DefaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F036C9260BC17000770065 /* DefaultView.swift */; };
+		C7F036CF260BE40900770065 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F036CE260BE40900770065 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		C7F036A5260B8FE300770065 /* Hacker PatrikaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hacker PatrikaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7F036A9260B8FE300770065 /* Hacker_PatrikaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hacker_PatrikaUITests.swift; sourceTree = "<group>"; };
 		C7F036AB260B8FE300770065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7F036BB260BB8AD00770065 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		C7F036C3260BBAC800770065 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		C7F036C9260BC17000770065 /* DefaultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultView.swift; sourceTree = "<group>"; };
+		C7F036CE260BE40900770065 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +107,10 @@
 		C7F03686260B8FE200770065 /* Hacker Patrika */ = {
 			isa = PBXGroup;
 			children = (
+				C7F036C8260BC13300770065 /* Views */,
+				C7F036BA260BB89800770065 /* Models */,
 				C7F03687260B8FE200770065 /* AppDelegate.swift */,
 				C7F03689260B8FE200770065 /* SceneDelegate.swift */,
-				C7F0368B260B8FE200770065 /* ContentView.swift */,
 				C7F0368D260B8FE300770065 /* Assets.xcassets */,
 				C7F03692260B8FE300770065 /* LaunchScreen.storyboard */,
 				C7F03695260B8FE300770065 /* Info.plist */,
@@ -134,6 +143,25 @@
 				C7F036AB260B8FE300770065 /* Info.plist */,
 			);
 			path = "Hacker PatrikaUITests";
+			sourceTree = "<group>";
+		};
+		C7F036BA260BB89800770065 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C7F036BB260BB8AD00770065 /* NetworkManager.swift */,
+				C7F036C3260BBAC800770065 /* PostData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C7F036C8260BC13300770065 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C7F0368B260B8FE200770065 /* ContentView.swift */,
+				C7F036C9260BC17000770065 /* DefaultView.swift */,
+				C7F036CE260BE40900770065 /* WebView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,9 +294,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7F036C4260BBAC800770065 /* PostData.swift in Sources */,
+				C7F036BC260BB8AD00770065 /* NetworkManager.swift in Sources */,
+				C7F036CA260BC17000770065 /* DefaultView.swift in Sources */,
 				C7F03688260B8FE200770065 /* AppDelegate.swift in Sources */,
 				C7F0368A260B8FE200770065 /* SceneDelegate.swift in Sources */,
 				C7F0368C260B8FE200770065 /* ContentView.swift in Sources */,
+				C7F036CF260BE40900770065 /* WebView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
