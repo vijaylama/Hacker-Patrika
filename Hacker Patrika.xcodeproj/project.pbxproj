@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7F03688260B8FE200770065 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F03687260B8FE200770065 /* AppDelegate.swift */; };
+		C7F0368A260B8FE200770065 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F03689260B8FE200770065 /* SceneDelegate.swift */; };
+		C7F0368C260B8FE200770065 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F0368B260B8FE200770065 /* ContentView.swift */; };
+		C7F0368E260B8FE300770065 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7F0368D260B8FE300770065 /* Assets.xcassets */; };
+		C7F03691260B8FE300770065 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7F03690260B8FE300770065 /* Preview Assets.xcassets */; };
+		C7F03694260B8FE300770065 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7F03692260B8FE300770065 /* LaunchScreen.storyboard */; };
+		C7F0369F260B8FE300770065 /* Hacker_PatrikaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F0369E260B8FE300770065 /* Hacker_PatrikaTests.swift */; };
+		C7F036AA260B8FE300770065 /* Hacker_PatrikaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F036A9260B8FE300770065 /* Hacker_PatrikaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7F0369B260B8FE300770065 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7F0367C260B8FE200770065 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7F03683260B8FE200770065;
+			remoteInfo = "Hacker Patrika";
+		};
+		C7F036A6260B8FE300770065 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7F0367C260B8FE200770065 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7F03683260B8FE200770065;
+			remoteInfo = "Hacker Patrika";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C7F03684260B8FE200770065 /* Hacker Patrika.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hacker Patrika.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7F03687260B8FE200770065 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C7F03689260B8FE200770065 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C7F0368B260B8FE200770065 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C7F0368D260B8FE300770065 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C7F03690260B8FE300770065 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C7F03693260B8FE300770065 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C7F03695260B8FE300770065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7F0369A260B8FE300770065 /* Hacker PatrikaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hacker PatrikaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7F0369E260B8FE300770065 /* Hacker_PatrikaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hacker_PatrikaTests.swift; sourceTree = "<group>"; };
+		C7F036A0260B8FE300770065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7F036A5260B8FE300770065 /* Hacker PatrikaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hacker PatrikaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7F036A9260B8FE300770065 /* Hacker_PatrikaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hacker_PatrikaUITests.swift; sourceTree = "<group>"; };
+		C7F036AB260B8FE300770065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7F03681260B8FE200770065 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7F03697260B8FE300770065 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7F036A2260B8FE300770065 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7F0367B260B8FE200770065 = {
+			isa = PBXGroup;
+			children = (
+				C7F03686260B8FE200770065 /* Hacker Patrika */,
+				C7F0369D260B8FE300770065 /* Hacker PatrikaTests */,
+				C7F036A8260B8FE300770065 /* Hacker PatrikaUITests */,
+				C7F03685260B8FE200770065 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7F03685260B8FE200770065 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7F03684260B8FE200770065 /* Hacker Patrika.app */,
+				C7F0369A260B8FE300770065 /* Hacker PatrikaTests.xctest */,
+				C7F036A5260B8FE300770065 /* Hacker PatrikaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7F03686260B8FE200770065 /* Hacker Patrika */ = {
+			isa = PBXGroup;
+			children = (
+				C7F03687260B8FE200770065 /* AppDelegate.swift */,
+				C7F03689260B8FE200770065 /* SceneDelegate.swift */,
+				C7F0368B260B8FE200770065 /* ContentView.swift */,
+				C7F0368D260B8FE300770065 /* Assets.xcassets */,
+				C7F03692260B8FE300770065 /* LaunchScreen.storyboard */,
+				C7F03695260B8FE300770065 /* Info.plist */,
+				C7F0368F260B8FE300770065 /* Preview Content */,
+			);
+			path = "Hacker Patrika";
+			sourceTree = "<group>";
+		};
+		C7F0368F260B8FE300770065 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C7F03690260B8FE300770065 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C7F0369D260B8FE300770065 /* Hacker PatrikaTests */ = {
+			isa = PBXGroup;
+			children = (
+				C7F0369E260B8FE300770065 /* Hacker_PatrikaTests.swift */,
+				C7F036A0260B8FE300770065 /* Info.plist */,
+			);
+			path = "Hacker PatrikaTests";
+			sourceTree = "<group>";
+		};
+		C7F036A8260B8FE300770065 /* Hacker PatrikaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C7F036A9260B8FE300770065 /* Hacker_PatrikaUITests.swift */,
+				C7F036AB260B8FE300770065 /* Info.plist */,
+			);
+			path = "Hacker PatrikaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7F03683260B8FE200770065 /* Hacker Patrika */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7F036AE260B8FE400770065 /* Build configuration list for PBXNativeTarget "Hacker Patrika" */;
+			buildPhases = (
+				C7F03680260B8FE200770065 /* Sources */,
+				C7F03681260B8FE200770065 /* Frameworks */,
+				C7F03682260B8FE200770065 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hacker Patrika";
+			productName = "Hacker Patrika";
+			productReference = C7F03684260B8FE200770065 /* Hacker Patrika.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C7F03699260B8FE300770065 /* Hacker PatrikaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7F036B1260B8FE400770065 /* Build configuration list for PBXNativeTarget "Hacker PatrikaTests" */;
+			buildPhases = (
+				C7F03696260B8FE300770065 /* Sources */,
+				C7F03697260B8FE300770065 /* Frameworks */,
+				C7F03698260B8FE300770065 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7F0369C260B8FE300770065 /* PBXTargetDependency */,
+			);
+			name = "Hacker PatrikaTests";
+			productName = "Hacker PatrikaTests";
+			productReference = C7F0369A260B8FE300770065 /* Hacker PatrikaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C7F036A4260B8FE300770065 /* Hacker PatrikaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7F036B4260B8FE400770065 /* Build configuration list for PBXNativeTarget "Hacker PatrikaUITests" */;
+			buildPhases = (
+				C7F036A1260B8FE300770065 /* Sources */,
+				C7F036A2260B8FE300770065 /* Frameworks */,
+				C7F036A3260B8FE300770065 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7F036A7260B8FE300770065 /* PBXTargetDependency */,
+			);
+			name = "Hacker PatrikaUITests";
+			productName = "Hacker PatrikaUITests";
+			productReference = C7F036A5260B8FE300770065 /* Hacker PatrikaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7F0367C260B8FE200770065 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					C7F03683260B8FE200770065 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					C7F03699260B8FE300770065 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = C7F03683260B8FE200770065;
+					};
+					C7F036A4260B8FE300770065 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = C7F03683260B8FE200770065;
+					};
+				};
+			};
+			buildConfigurationList = C7F0367F260B8FE200770065 /* Build configuration list for PBXProject "Hacker Patrika" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7F0367B260B8FE200770065;
+			productRefGroup = C7F03685260B8FE200770065 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7F03683260B8FE200770065 /* Hacker Patrika */,
+				C7F03699260B8FE300770065 /* Hacker PatrikaTests */,
+				C7F036A4260B8FE300770065 /* Hacker PatrikaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7F03682260B8FE200770065 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7F03694260B8FE300770065 /* LaunchScreen.storyboard in Resources */,
+				C7F03691260B8FE300770065 /* Preview Assets.xcassets in Resources */,
+				C7F0368E260B8FE300770065 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7F03698260B8FE300770065 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7F036A3260B8FE300770065 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7F03680260B8FE200770065 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7F03688260B8FE200770065 /* AppDelegate.swift in Sources */,
+				C7F0368A260B8FE200770065 /* SceneDelegate.swift in Sources */,
+				C7F0368C260B8FE200770065 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7F03696260B8FE300770065 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7F0369F260B8FE300770065 /* Hacker_PatrikaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7F036A1260B8FE300770065 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7F036AA260B8FE300770065 /* Hacker_PatrikaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7F0369C260B8FE300770065 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7F03683260B8FE200770065 /* Hacker Patrika */;
+			targetProxy = C7F0369B260B8FE300770065 /* PBXContainerItemProxy */;
+		};
+		C7F036A7260B8FE300770065 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7F03683260B8FE200770065 /* Hacker Patrika */;
+			targetProxy = C7F036A6260B8FE300770065 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C7F03692260B8FE300770065 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7F03693260B8FE300770065 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7F036AC260B8FE400770065 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C7F036AD260B8FE400770065 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7F036AF260B8FE400770065 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Hacker Patrika/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Hacker Patrika/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vijay.Hacker-Patrika";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7F036B0260B8FE400770065 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Hacker Patrika/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Hacker Patrika/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vijay.Hacker-Patrika";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C7F036B2260B8FE400770065 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Hacker PatrikaTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vijay.Hacker-PatrikaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hacker Patrika.app/Hacker Patrika";
+			};
+			name = Debug;
+		};
+		C7F036B3260B8FE400770065 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Hacker PatrikaTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vijay.Hacker-PatrikaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hacker Patrika.app/Hacker Patrika";
+			};
+			name = Release;
+		};
+		C7F036B5260B8FE400770065 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Hacker PatrikaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vijay.Hacker-PatrikaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hacker Patrika";
+			};
+			name = Debug;
+		};
+		C7F036B6260B8FE400770065 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Hacker PatrikaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vijay.Hacker-PatrikaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hacker Patrika";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7F0367F260B8FE200770065 /* Build configuration list for PBXProject "Hacker Patrika" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7F036AC260B8FE400770065 /* Debug */,
+				C7F036AD260B8FE400770065 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7F036AE260B8FE400770065 /* Build configuration list for PBXNativeTarget "Hacker Patrika" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7F036AF260B8FE400770065 /* Debug */,
+				C7F036B0260B8FE400770065 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7F036B1260B8FE400770065 /* Build configuration list for PBXNativeTarget "Hacker PatrikaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7F036B2260B8FE400770065 /* Debug */,
+				C7F036B3260B8FE400770065 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7F036B4260B8FE400770065 /* Build configuration list for PBXNativeTarget "Hacker PatrikaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7F036B5260B8FE400770065 /* Debug */,
+				C7F036B6260B8FE400770065 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7F0367C260B8FE200770065 /* Project object */;
+}
